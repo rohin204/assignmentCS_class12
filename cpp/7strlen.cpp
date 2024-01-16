@@ -3,11 +3,11 @@ using namespace std;
 
 int main(){
 
-    char str[10];
+    char str[20];
     int len=0;
     
     cout<<"Enter your string: ";
-    gets(str);
+    cin.getline(str,10);
 
     for(int i=0; str[i] != '\0'; i++) {
         len++;
