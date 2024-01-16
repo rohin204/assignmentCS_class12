@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
     int num, copy, digit, rev=0;
-    cout<<"Enter thr number: ";
+    cout<<"Enter the number: ";
     cin>>num;
     copy = num;
 
