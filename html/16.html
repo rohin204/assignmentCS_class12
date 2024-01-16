@@ -1,0 +1,27 @@
+  
+<html>
+<head>
+   <title>blablabla</title>
+    <script Language="JavaScript">
+        function toUpper() {
+            var str = document.frm1.box.value
+            document.frm1.box.value = str.toUpperCase()
+            
+        }
+        function toLower() {
+            var str = document.frm1.box.value
+            document.frm1.box.value = str.toUpperCase()
+            
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <form name="frm1">
+            Enter a text <input type="text" id="box"> <br>
+            <input type="button" value="ToUpperCase" onclick="toUpper()">
+            <input type="button" value="toLowerCase" onclick="toLower()">
+        </form>
+    </center>
+</body>
+</html>

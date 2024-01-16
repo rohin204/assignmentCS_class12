@@ -1,0 +1,30 @@
+
+
+
+<html>
+<head>
+   
+    <title>blablabla</title>
+    <script Language="JavaScript">
+        function ConvertToUpperCase() {
+            var str
+            str = document.getElementById("box").value
+            document.getElementById("box").value = str.toUpperCase()
+            
+        }
+        function ConvertToLowerCase() {
+            var str
+            str = document.querySelector('input[name="box"]').value
+            document.querySelector('input[name="box"]').value = str.toLowerCase()
+            
+        }
+    </script>
+</head>
+<body>
+    <center>
+        Enter a text <input type="text" name="box"> <br>
+        <input type="button" value="To Upper Case" onclick="ConvertToUpperCase()">
+        <input type="button" value="To Lower Case" onclick="ConvertToLowerCase()">
+    </center>
+</body>
+</html>
