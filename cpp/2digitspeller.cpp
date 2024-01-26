@@ -42,6 +42,6 @@ int main() {
         break;
     default: 
         cout<<"Given value is not a digit";
-        break;
+    
     }
 }
