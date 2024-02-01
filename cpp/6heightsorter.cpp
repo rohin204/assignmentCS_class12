@@ -1,4 +1,4 @@
-#include <iostream>
+a#include <iostream>
 using namespace std;
 
 
@@ -25,8 +25,9 @@ int main() {
                 arr[i] = tmp;
         }
      }
+    cout<<"sorted heights: ";
     for(int i=0;i < 5; i++ ) {
-        cout<<"Sorted heights: "<<arr[i]<<" ";
+        cout<<arr[i]<<" ";
     }
 }
 
